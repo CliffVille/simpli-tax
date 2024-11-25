@@ -8,7 +8,7 @@ const Header = () => {
 
     <div className="flex items-center justify-between lg:justify-around bg-[#434242] border-b border-gray-400 py-8">
 
-      <div className="flex flex-col text-white justify-center font-bold text-2xl ml-8">SimpliTax<div className="text-xl">Solutions</div></div>
+      <div className="flex flex-col text-white justify-center font-bold text-2xl ml-8 lg:ml-0">SimpliTax<div className="text-xl">Solutions</div></div>
 
         <nav className="flex text-white text-xl uppercase">
 
@@ -39,15 +39,15 @@ const Header = () => {
               <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
                 <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-around min-h-[250px] absolute top-0">
 
-                  <li className="border-b border-gray-400 my-4 uppercase">
+                  <li className="border-b border-gray-400 my-4 uppercase hover:text-[22px] duration-300 ease-in-out">
                     <a href="/home">Home</a>
                   </li>
 
-                  <li className="border-b border-gray-400 my-4 uppercase">
+                  <li className="border-b border-gray-400 my-4 uppercase hover:text-[22px] duration-300 ease-in-out">
                     <a href="/Services">Services</a>
                   </li>
 
-                  <li className="border-b border-gray-400 my-4 uppercase">
+                  <li className="border-b border-gray-400 my-4 uppercase hover:text-[22px] duration-300 ease-in-out">
                     <a href="/About">About</a>
                   </li>
                 </ul>
@@ -55,9 +55,9 @@ const Header = () => {
           </section>
           
           <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
-            <li><a href="/Main" className="pr-4">Home</a></li>
-            <li><a href="/Services" className="pr-4">Services</a></li>
-            <li><a href="/About" className="">About</a></li>
+            <li><a href="/Main" className="pr-4 hover:text-black duration-300 ease-in-out">Home</a></li>
+            <li><a href="/Services" className="pr-4 hover:text-black duration-300 ease-in-out">Services</a></li>
+            <li><a href="/About" className="hover:text-black duration-300 ease-in-out">About</a></li>
           </ul>
         </nav>
         <style>
