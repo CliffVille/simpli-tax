@@ -1,7 +1,7 @@
 import Header from './Components/Header'
 import Main from './Components/Main'
-import Shop from './Components/Shop'
-import Contact from './Components/Contact'
+import Services from './Components/Services'
+import About from './Components/About'
 import Footer from './Components/Footer'
 
 function App() {
@@ -9,8 +9,8 @@ function App() {
     <>
     <Header />
     <Main />
-    <Shop />
-    <Contact />
+    <Services />
+    <About />
     <Footer />
     </>
   );

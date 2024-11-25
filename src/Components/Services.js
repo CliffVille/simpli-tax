@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Shop = () => {
+const Services = () => {
   return (
     <div className="bg-[#434242] w-full h-[500px]">
       
@@ -8,4 +8,4 @@ const Shop = () => {
   )
 }
 
-export default Shop
+export default Services;

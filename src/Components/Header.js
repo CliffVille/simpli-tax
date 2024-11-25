@@ -6,8 +6,8 @@ const Header = () => {
       <div className="flex flex-col text-white justify-center font-bold text-2xl">SimpliTax<div className="text-xl">Solutions</div></div>
       <nav className="flex pt-6 text-white text-xl uppercase">
         <a href="/#Main" className="pr-4">Home</a>
-        <a href="/#Shop" className="pr-4">Shop</a>
-        <a href="/#Contact" className="">Contact</a>
+        <a href="/#Services" className="pr-4">Services</a>
+        <a href="/#About" className="">About</a>
       </nav>
     </div>
   )
