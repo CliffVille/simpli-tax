@@ -6,7 +6,7 @@ const Header = () => {
 
   return (
 
-    <div className="flex items-center justify-between lg:justify-around bg-[#434242] border-b border-gray-400 py-8">
+    <div className="flex items-center justify-between px-24 bg-[#434242] border-b border-gray-400 py-8">
 
       <div className="flex flex-col text-white justify-center font-bold text-2xl ml-8 lg:ml-0">SimpliTax<div className="text-xl">Solutions</div></div>
 
@@ -37,7 +37,7 @@ const Header = () => {
               </div>
 
               <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
-                <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-around min-h-[250px] absolute top-0">
+                <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between px-24 min-h-[250px] absolute top-0">
 
                   <li className="border-b border-gray-400 my-4 uppercase hover:text-[22px] duration-300 ease-in-out">
                     <a href="/home">Home</a>
