@@ -6,7 +6,7 @@ const Header = () => {
 
   return (
 
-    <div className="flex items-center justify-between lg:justify-around bg-[#434242] border-b border-gray-400 py-8">
+    <div className="flex items-center justify-between px-8 bg-[#434242] border-b border-gray-400 py-8">
 
       <div className="flex flex-col text-white justify-center font-bold text-2xl ml-8 lg:ml-0">SimpliTax<div className="text-xl">Solutions</div></div>
 
