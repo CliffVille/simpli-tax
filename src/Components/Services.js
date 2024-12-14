@@ -9,16 +9,32 @@ const Services = () => {
       </div>
       <div className="h-[250px]">
         <div className="flex flex-row mb-2">
-          <div className="w-[250px] h-[70px] bg-black rounded-md mr-4"></div>
-          <div className="w-[250px] h-[70px] bg-black rounded-md mr-4"></div>
-          <div className="w-[250px] h-[70px] bg-black rounded-md mr-4"></div>
-          <div className="w-[250px] h-[70px] bg-black rounded-md mr-4"></div>
+          <div className="w-[250px] h-[70px] bg-emerald-500 rounded-md mr-4 flex justify-center items-center">
+            <h3 className="text-white text-2xl font-kumbh font-bold">T1 Personal Tax</h3>
+          </div>
+          <div className="w-[250px] h-[70px] bg-emerald-500 rounded-md mr-4 flex justify-center items-center">
+            <h3 className="text-white text-2xl font-kumbh font-bold">T2 Corporate Tax</h3>
+          </div>
+          <div className="w-[250px] h-[70px] bg-emerald-500 rounded-md mr-4 flex justify-center items-center">
+            <h3 className="text-white text-2xl font-kumbh font-bold">Book Keeping</h3>
+          </div>
+          <div className="w-[250px] h-[70px] bg-emerald-500 rounded-md mr-4 flex justify-center items-center">
+            <h3 className="text-white text-2xl font-kumbh font-bold">Trust Returns</h3>
+          </div>
         </div>
         <div className="flex flex-row">
-          <div className="w-[250px] h-[70px] bg-black rounded-md mr-4"></div>
-          <div className="w-[250px] h-[70px] bg-black rounded-md mr-4"></div>
-          <div className="w-[250px] h-[70px] bg-black rounded-md mr-4"></div>
-          <div className="w-[250px] h-[70px] bg-black rounded-md"></div>
+          <div className="w-[250px] h-[70px] bg-emerald-500 rounded-md mr-4 flex justify-center items-center">
+            <h3 className="text-white text-2xl font-kumbh font-bold">Film Tax Credits</h3>
+          </div>
+          <div className="w-[250px] h-[70px] bg-emerald-500 rounded-md mr-4 flex justify-center items-center">
+            <h3 className="text-white text-2xl font-kumbh font-bold">Appeals to CRA</h3>
+          </div>
+          <div className="w-[250px] h-[70px] bg-emerald-500 rounded-md mr-4 flex justify-center items-center">
+            <h3 className="text-white text-2xl font-kumbh font-bold">Informal Appeals</h3>
+          </div>
+          <div className="w-[250px] h-[70px] bg-emerald-500 rounded-md flex justify-center items-center">
+            <h3 className="text-white text-2xl font-kumbh font-bold">PST & GST Returns</h3>
+          </div>
         </div>
       </div>
     </div>
