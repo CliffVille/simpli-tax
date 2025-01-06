@@ -8,9 +8,15 @@ function App() {
   return (
     <>
     <Header />
-    <Main />
-    <Services />
-    <About />
+    <div id="main">
+      <Main />
+    </div>
+    <div id="services">
+      <Services />
+    </div>
+    <div id="about">
+      <About />
+    </div>
     <Footer />
     </>
   );
