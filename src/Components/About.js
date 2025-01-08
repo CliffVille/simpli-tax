@@ -5,7 +5,7 @@ import profile from '../assets/profile.png'
 
 const About = () => {
   return (
-    <div className="bg-[#101010] w-full min-h-screen h-[500px] flex justify-center items-center pb-16" id="about">
+    <div className="bg-[#101010] w-full min-h-screen flex justify-center items-center space-y-24" id="about">
       <div className="flex flex-col items-center w-3/4 mt-4">
         <h1 className="text-7xl text-white font-kumbh font-extrabold mt-4 mb-4">Our Team</h1>
         <div className="w-1/2 flex justify-center">
