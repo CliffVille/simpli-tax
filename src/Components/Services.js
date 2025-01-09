@@ -40,7 +40,7 @@ const Services = () => {
             <div className="w-full h-full bg-black bg-imageThree bg-cover rounded-md text-white text-center pt-6">Informal Appeals to Tax Court</div>
             <div className="absolute inset-0 bg-black opacity-10 rounded-md"></div>
           </div>
-          <div className="relative w-[80%] lg:w-[200px] h-[70px] rounded-md mb-2 mr-4">
+          <div className="relative w-[80%] lg:w-[200px] h-[70px] rounded-md mb-8 mr-4">
             <div className="w-full h-full bg-black bg-imageThree bg-cover rounded-md text-white text-center pt-6">PST & GST Returns</div>
             <div className="absolute inset-0 bg-black opacity-10 rounded-md"></div>
           </div>
